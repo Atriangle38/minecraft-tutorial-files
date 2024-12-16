@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "pack_format": 61,
+        "supported_formats": [16, 61],
+        "description": "Data pack for my first tutorial, 'Custom Dimension Data Pack Tutorial 1 - Dimension and Dimension Type'."
+    }
+}
