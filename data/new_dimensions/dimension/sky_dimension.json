@@ -2,7 +2,7 @@
     "type": "new_dimensions:sky",
     "generator": {
         "type": "minecraft:noise",
-        "settings": "minecraft:floating_islands",
+        "settings": "new_dimensions:sky",
         "biome_source": {
             "type": "minecraft:multi_noise",
             "biomes": [
