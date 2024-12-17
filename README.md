@@ -6,3 +6,4 @@ This repository contains all of the files used in my data pack tutorials. Each b
 * [**02-biome**](https://github.com/Atriangle38/minecraft-tutorial-files/tree/02-biome) - Data pack for my second tutorial, "Custom Biome Data Pack Tutorial".
 * [**03-single-template-structure**](https://github.com/Atriangle38/minecraft-tutorial-files/tree/03-single-template-structure) - Data pack for my third tutorial, "Custom Structure Data Pack Tutorial 1 - Single Template Structures".
 * [**04-multi-template-structure**](https://github.com/Atriangle38/minecraft-tutorial-files/tree/04-multi-template-structure) - Data pack for my fourth tutorial, "Custom Structure Data Pack Tutorial 2 - Multi Template Structures".
+* [**05-flat-dimension**](https://github.com/Atriangle38/minecraft-tutorial-files/tree/05-flat-dimension) - Data pack for my fifth tutorial, "Custom Flat Dimension Data Pack Tutorial".
