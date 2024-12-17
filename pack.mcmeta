@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 61,
         "supported_formats": [16, 61],
-        "description": "Data pack for my fourth tutorial, 'Custom Structure Data Pack Tutorial 2 - Multi Template Structures'."
+        "description": "Data pack for my fifth tutorial, 'Custom Flat Dimension Data Pack Tutorial'."
     },
     "overlays": {
         "entries": [
