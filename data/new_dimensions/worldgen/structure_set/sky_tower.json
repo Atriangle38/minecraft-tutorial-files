@@ -3,6 +3,10 @@
         {
             "structure": "new_dimensions:sky_tower",
             "weight": 1
+        },
+        {
+            "structure": "new_dimensions:wooden_house",
+            "weight": 1
         }
     ],
     "placement": {
