@@ -2,6 +2,24 @@
     "pack": {
         "pack_format": 61,
         "supported_formats": [16, 61],
-        "description": "Data pack for my first tutorial, 'Custom Dimension Data Pack Tutorial 1 - Dimension and Dimension Type'."
+        "description": "Data pack for my second tutorial, 'Custom Biome Data Pack Tutorial'."
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": {
+                    "min_inclusive": 57,
+                    "max_inclusive": 60
+                },
+                "directory": "1_21_2"
+            },
+            {
+                "formats": {
+                    "min_inclusive": 61,
+                    "max_inclusive": 2147483647
+                },
+                "directory": "1_21_4"
+            }
+        ]
     }
 }
