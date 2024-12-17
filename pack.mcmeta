@@ -2,10 +2,17 @@
     "pack": {
         "pack_format": 61,
         "supported_formats": [16, 61],
-        "description": "Data pack for my second tutorial, 'Custom Biome Data Pack Tutorial'."
+        "description": "Data pack for my third tutorial, 'Custom Structure Data Pack Tutorial 1 - Single Template Structures'."
     },
     "overlays": {
         "entries": [
+            {
+                "formats": {
+                    "min_inclusive": 45,
+                    "max_inclusive": 56
+                },
+                "directory": "1_21"
+            },
             {
                 "formats": {
                     "min_inclusive": 57,
