@@ -125,7 +125,8 @@
           "minecraft:patch_tall_grass_2",
           "minecraft:patch_grass_plain",
           "minecraft:flower_meadow",
-          "minecraft:trees_plains"
+          "minecraft:trees_plains",
+          "new_dimensions:crystal_shards"
         ],
         [
           "minecraft:freeze_top_layer"

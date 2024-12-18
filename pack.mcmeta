@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 61,
         "supported_formats": [16, 61],
-        "description": "Data pack for my sixth tutorial, 'Custom Dimension Data Pack Tutorial 2 - Noise Settings'."
+        "description": "Data pack for my seventh and eighth tutorials, 'Custom Feature Data Pack Tutorial 1 - Configured Features' and 'Custom Feature Data Pack Tutorial 2 - Placed Features'."
     },
     "overlays": {
         "entries": [
