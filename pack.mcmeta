@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 61,
+        "pack_format": 15,
         "supported_formats": [16, 61],
         "description": "Data pack for my seventh and eighth tutorials, 'Custom Feature Data Pack Tutorial 1 - Configured Features' and 'Custom Feature Data Pack Tutorial 2 - Placed Features'."
     },
