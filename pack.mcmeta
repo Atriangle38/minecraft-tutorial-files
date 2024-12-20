@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 61,
+        "pack_format": 15,
         "supported_formats": [16, 61],
         "description": "Data pack for my second tutorial, 'Custom Biome Data Pack Tutorial'."
     },
