@@ -9,9 +9,9 @@
             {
                 "formats": {
                     "min_inclusive": 45,
-                    "max_inclusive": 56
+                    "max_inclusive": 2147483647
                 },
-                "directory": "1_21"
+                "directory": "1_21_or_higher"
             },
             {
                 "formats": {
