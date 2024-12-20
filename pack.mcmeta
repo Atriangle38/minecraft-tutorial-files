@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 46,
+        "pack_format": 15,
         "supported_formats": [16, 46],
         "description": "Resource pack for my tenth tutorial, 'Custom World Preset Data Pack Tutorial'."
     }
