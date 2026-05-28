@@ -1,7 +1,9 @@
 {
     "pack": {
         "pack_format": 15,
-        "supported_formats": [16, 61],
+        "supported_formats": [15, 101],
+        "min_format": 15,
+        "max_format": [101, 1],
         "description": "Data pack for my third tutorial, 'Custom Structure Data Pack Tutorial 1 - Single Template Structures'."
     },
     "overlays": {
@@ -26,6 +28,15 @@
                     "max_inclusive": 2147483647
                 },
                 "directory": "1_21_4"
+            },
+            {
+                "formats": {
+                    "min_inclusive": 94,
+                    "max_inclusive": 2147483647
+                },
+                "min_format": [94, 1],
+                "max_format": 2147483647,
+                "directory": "1_21_11"
             }
         ]
     }
