@@ -4,7 +4,7 @@
         "supported_formats": [15, 101],
         "min_format": 15,
         "max_format": [101, 1],
-        "description": "Data pack for my tenth tutorial, 'Custom World Preset Data Pack Tutorial'."
+        "description": "Data pack for my eleventh tutorial, 'How to Access and Overwrite Minecraft Data with a Data Pack'."
     },
     "overlays": {
         "entries": [
