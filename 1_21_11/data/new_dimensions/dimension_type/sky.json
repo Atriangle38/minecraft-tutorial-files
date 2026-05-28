@@ -7,7 +7,7 @@
     "has_skylight": true,
     "skybox": "overworld",
     "cardinal_light": "default",
-    "has_fixed_time": true,
+    "has_fixed_time": false,
     "min_y": -64,
     "height": 384,
     "logical_height": 384,
@@ -29,6 +29,10 @@
         "minecraft:gameplay/respawn_anchor_works": false,
         "minecraft:gameplay/water_evaporates": false,
         "minecraft:gameplay/fast_lava": false,
+        "minecraft:gameplay/creaking_active": false,
+        "minecraft:gameplay/monsters_burn": true,
+        "minecraft:gameplay/sky_light_level": 15,
+        "minecraft:visual/star_brightness": 1,
         "minecraft:visual/default_dripstone_particle": {
             "type": "minecraft:dripping_dripstone_water"
         },
@@ -43,5 +47,5 @@
             }
         }
     },
-    "timelines": "#minecraft:universal"
+    "timelines": "#new_dimensions:in_sky"
 }
