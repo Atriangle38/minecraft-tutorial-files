@@ -1,0 +1,47 @@
+{
+    "ambient_light": 0.1,
+    "coordinate_scale": 1,
+    "default_clock": "minecraft:overworld",
+    "has_ceiling": false,
+    "has_ender_dragon_fight": false,
+    "has_skylight": true,
+    "skybox": "overworld",
+    "cardinal_light": "default",
+    "has_fixed_time": true,
+    "min_y": -64,
+    "height": 384,
+    "logical_height": 384,
+    "infiniburn": "#minecraft:infiniburn_overworld",
+    "monster_spawn_block_light_limit": 0,
+    "monster_spawn_light_level": 0,
+    "attributes": {
+        "minecraft:gameplay/bed_rule": {
+            "can_set_spawn": "always",
+            "can_sleep": "always",
+            "error_message": {
+                "translate": "block.minecraft.bed.no_sleep"
+            },
+            "explodes": false
+        },
+        "minecraft:gameplay/can_start_raid": false,
+        "minecraft:gameplay/nether_portal_spawns_piglin": false,
+        "minecraft:gameplay/piglins_zombify": true,
+        "minecraft:gameplay/respawn_anchor_works": false,
+        "minecraft:gameplay/water_evaporates": false,
+        "minecraft:gameplay/fast_lava": false,
+        "minecraft:visual/default_dripstone_particle": {
+            "type": "minecraft:dripping_dripstone_water"
+        },
+        "minecraft:visual/cloud_height": 300,
+        "minecraft:visual/cloud_color": 2130673919,
+        "minecraft:visual/fog_color": "#c0d8ff",
+        "audio/background_music": {
+            "creative": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "sound": "minecraft:music.creative"
+            }
+        }
+    },
+    "timelines": "#minecraft:universal"
+}
