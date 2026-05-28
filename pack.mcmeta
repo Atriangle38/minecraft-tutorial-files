@@ -1,7 +1,18 @@
 {
     "pack": {
         "pack_format": 15,
-        "supported_formats": [16, 61],
+        "supported_formats": [15, 101],
+        "min_format": 15,
+        "max_format": [101, 1],
         "description": "Data pack for my first tutorial, 'Custom Dimension Data Pack Tutorial 1 - Dimension and Dimension Type'."
+    },
+    "overlays": {
+        "entries": [
+            {
+                "min_format": [94, 1],
+                "max_format": 2147483647,
+                "directory": "1_21_11"
+            }
+        ]
     }
 }
