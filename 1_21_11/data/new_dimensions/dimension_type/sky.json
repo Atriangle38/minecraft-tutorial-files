@@ -35,7 +35,7 @@
         "minecraft:visual/cloud_height": 300,
         "minecraft:visual/cloud_color": 2130673919,
         "minecraft:visual/fog_color": "#c0d8ff",
-        "audio/background_music": {
+        "minecraft:audio/background_music": {
             "creative": {
                 "max_delay": 24000,
                 "min_delay": 12000,
