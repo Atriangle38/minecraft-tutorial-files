@@ -4,7 +4,7 @@
         "supported_formats": [15, 121],
         "min_format": 15,
         "max_format": 121,
-        "description": "Data pack for my eleventh tutorial, 'How to Access and Overwrite Minecraft Data with a Data Pack'."
+        "description": "Data pack for my twelth tutorial, 'Environment Attributes and Timelines'."
     },
     "overlays": {
         "entries": [
