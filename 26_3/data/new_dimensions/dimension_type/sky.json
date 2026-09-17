@@ -7,7 +7,7 @@
     "has_skylight": true,
     "skybox": "overworld",
     "cardinal_light": "default",
-    "has_fixed_time": false,
+    "has_fixed_time": true,
     "min_y": -64,
     "height": 384,
     "logical_height": 384,
@@ -21,7 +21,7 @@
             "error_message": {
                 "translate": "block.minecraft.bed.no_sleep"
             },
-            "explodes": false
+            "destroy_on_use": false
         },
         "minecraft:gameplay/can_start_raid": false,
         "minecraft:gameplay/nether_portal_spawns_piglin": false,
@@ -29,10 +29,7 @@
         "minecraft:gameplay/respawn_anchor_works": false,
         "minecraft:gameplay/water_evaporates": false,
         "minecraft:gameplay/fast_lava": false,
-        "minecraft:gameplay/creaking_active": false,
-        "minecraft:gameplay/monsters_burn": true,
-        "minecraft:gameplay/sky_light_level": 15,
-        "minecraft:visual/star_brightness": 1,
+        "minecraft:visual/ambient_light_color": "#999999",
         "minecraft:visual/default_dripstone_particle": {
             "type": "minecraft:dripping_dripstone_water"
         },
@@ -47,5 +44,5 @@
             }
         }
     },
-    "timelines": "#new_dimensions:in_sky"
+    "timelines": "#minecraft:universal"
 }
