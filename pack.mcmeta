@@ -3,7 +3,7 @@
         "pack_format": 15,
         "supported_formats": [15, 121],
         "min_format": 15,
-        "max_format": [121, 1],
+        "max_format": 121,
         "description": "Data pack for my first tutorial, 'Custom Dimension Data Pack Tutorial 1 - Dimension and Dimension Type'."
     },
     "overlays": {
