@@ -21,7 +21,7 @@
             "error_message": {
                 "translate": "block.minecraft.bed.no_sleep"
             },
-            "explodes": false
+            "destroy_on_use": false
         },
         "minecraft:gameplay/can_start_raid": false,
         "minecraft:gameplay/nether_portal_spawns_piglin": false,
@@ -29,6 +29,7 @@
         "minecraft:gameplay/respawn_anchor_works": false,
         "minecraft:gameplay/water_evaporates": false,
         "minecraft:gameplay/fast_lava": false,
+        "minecraft:visual/ambient_light_color": "#999999",
         "minecraft:visual/default_dripstone_particle": {
             "type": "minecraft:dripping_dripstone_water"
         },
