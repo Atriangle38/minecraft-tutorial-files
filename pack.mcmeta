@@ -1,0 +1,65 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": [15, 121],
+    "min_format": 15,
+    "max_format": 121,
+    "description": "Adds a dimension based on terraria's corruption."
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": {
+          "min_inclusive": 57,
+          "max_inclusive": 60
+        },
+        "directory": "1_21_2"
+      },
+      {
+        "formats": {
+          "min_inclusive": 61,
+          "max_inclusive": 70
+        },
+        "min_format": 61,
+        "max_format": 70,
+        "directory": "1_21_4"
+      },
+      {
+        "formats": {
+          "min_inclusive": 71,
+          "max_inclusive": 93
+        },
+        "min_format": 71,
+        "max_format": 93,
+        "directory": "1_21_5"
+      },
+      {
+        "formats": {
+          "min_inclusive": 88,
+          "max_inclusive": 2147483647
+        },
+        "min_format": 88,
+        "max_format": 2147483647,
+        "directory": "1_21_9"
+      },
+      {
+        "formats": {
+          "min_inclusive": 94,
+          "max_inclusive": 120
+        },
+        "min_format": [94, 1],
+        "max_format": 120,
+        "directory": "1_21_11"
+      },
+      {
+        "formats": {
+          "min_inclusive": 121,
+          "max_inclusive": 2147483647
+        },
+        "min_format": [121, 0],
+        "max_format": 2147483647,
+        "directory": "26_3"
+      }
+    ]
+  }
+}
