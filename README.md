@@ -15,3 +15,4 @@ This repository contains all of the files used in my data pack tutorials. Each b
 * [**12-timelines**](https://github.com/Atriangle38/minecraft-tutorial-files/tree/12-timelines) - Data pack for my twelth tutorial, "Environment Attributes and Timelines".
 
 * [**corruption-dimension**](https://github.com/Atriangle38/minecraft-tutorial-files/tree/corruption-dimension) - The corruption dimension I showed off in the video "Custom Cave Data Pack Tutorial - Configured Carvers", including the carver recreating terraria's corruption chasms, working on all versions from 1.20.1 to 26.3.
+* [**overworld-like-dimension-template**](https://github.com/Atriangle38/minecraft-tutorial-files/tree/overworld-like-dimension-template) - The overworld-like dimension template I showed off in the video "Custom Dimension Data Pack Tutorial 5 - Final Topics of World Generation", working on all versions from 1.20.1 to 26.3.
