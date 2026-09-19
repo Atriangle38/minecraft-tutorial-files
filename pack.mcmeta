@@ -1,0 +1,28 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": [15, 121],
+    "min_format": 15,
+    "max_format": 121,
+    "description": "A template designed to be easily edited."
+  },
+  "overlays": {
+    "entries": [
+      {
+        "min_format": [88, 0],
+        "max_format": 120,
+        "directory": "1_21_9"
+      },
+      {
+        "min_format": [107, 1],
+        "max_format": 120,
+        "directory": "26_2"
+      },
+      {
+        "min_format": [121, 0],
+        "max_format": 2147483647,
+        "directory": "26_3"
+      }
+    ]
+  }
+}

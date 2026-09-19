@@ -1,0 +1,105 @@
+{
+  "aquifers": {
+    "barrier": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_barrier",
+      "xz_scale": 1.0,
+      "y_scale": 0.5
+    },
+    "exclusion": {
+      "type": "minecraft:min",
+      "left": {
+        "type": "minecraft:sub",
+        "left": -0.225,
+        "right": "new_dimensions:dimension/erosion"
+      },
+      "right": {
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:sub",
+          "left": "new_dimensions:dimension/depth",
+          "right": 0.9
+        },
+        "right": 0.0
+      }
+    },
+    "fluid_level_floodedness": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_fluid_level_floodedness",
+      "xz_scale": 1.0,
+      "y_scale": 0.67
+    },
+    "fluid_level_spread": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_fluid_level_spread",
+      "xz_scale": 1.0,
+      "y_scale": 0.7142857142857143
+    },
+    "lava": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:aquifer_lava",
+      "xz_scale": 1.0,
+      "y_scale": 1.0
+    },
+    "surface_level": "new_dimensions:dimension/preliminary_surface_level"
+  },
+  "debug_functions": [
+    {
+      "function": "new_dimensions:dimension/final_density",
+      "label": "N"
+    },
+    {
+      "function": "new_dimensions:dimension/temperature",
+      "label": "T"
+    },
+    {
+      "function": "new_dimensions:dimension/vegetation",
+      "label": "V"
+    },
+    {
+      "function": "new_dimensions:dimension/continents",
+      "label": "C"
+    },
+    {
+      "function": "new_dimensions:dimension/erosion",
+      "label": "E"
+    },
+    {
+      "function": "new_dimensions:dimension/depth",
+      "label": "D"
+    },
+    {
+      "function": "new_dimensions:dimension/ridges",
+      "label": "W"
+    },
+    {
+      "function": "new_dimensions:dimension/ridges_folded",
+      "label": "PV"
+    },
+    {
+      "function": "new_dimensions:dimension/preliminary_surface_level",
+      "label": "PS"
+    }
+  ],
+  "default_block": "minecraft:stone",
+  "default_fluid": "minecraft:water",
+  "disable_mob_generation": false,
+  "legacy_random_source": false,
+  "material_rule": "minecraft:overworld",
+  "noise": {
+    "height": 384,
+    "min_y": -64
+  },
+  "noise_router": {
+    "chunk_surface_level": "new_dimensions:dimension/chunk_surface_level",
+    "continents": "new_dimensions:dimension/continents",
+    "depth": "new_dimensions:dimension/depth",
+    "erosion": "new_dimensions:dimension/erosion",
+    "final_density": "new_dimensions:dimension/final_density",
+    "ridges": "new_dimensions:dimension/ridges",
+    "temperature": "new_dimensions:dimension/temperature",
+    "vegetation": "new_dimensions:dimension/vegetation"
+  },
+  "sea_level": 63,
+  "spawn_target": []
+}
